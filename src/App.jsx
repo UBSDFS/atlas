@@ -1,14 +1,5 @@
-function App() {
-  return (
-    <div className="container mt-5">
-      <h1 className="text-primary">Atlas</h1>
-      <p className="lead">Your personal operating system.</p>
+import AppLayout from "./components/layout/AppLayout";
 
-      <button className="btn btn-primary">
-        Bootstrap Works
-      </button>
-    </div>
-  );
+export default function App() {
+    return <AppLayout />;
 }
-
-export default App;
